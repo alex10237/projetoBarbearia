@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+
+<body>
+    <header class="menu-topo">
+        <img class="logo-topo" src="img/logo.png" alt="Logo da Empresa">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="meio">
+            <form action="index.html" method="GET">
+
+                <div class="input-nome">
+                    <label> Nome e sobrenome <br>
+                        <input type="text">
+                    </label>
+                </div>
+
+                <div class="input-email">
+                    <label>Email <br>
+                        <input type="email" placeholder="   seuemail@dominio.com">
+                    </label>
+                </div>
+
+                <div class="input-telefone">
+                    <label>Telefone <br>
+                        <input type="tel" placeholder="   (xx)xxxxx-xxxx">
+                    </label>
+                </div>
+
+                <div class="input-mensagem">
+                    <label>Mensagem <br>
+                        <textarea class="msg" cols="30" rows="5"></textarea>
+                    </label>
+                </div>
+        </section>
+
+        <section class="input-escolha-contato">
+            <label>Como Prefere o nosso contato?<br>
+                <input type="radio" name="contato" />Email<br>
+                <input type="radio" name="contato" />Telefone<br>
+                <input type="radio" name="contato" />Whatsapp<br>
+            </label>
+
+            <div class="horario-atendimento">
+                Qual horário prefere ser atendido?
+                <select>
+                    <option value="selecione">Selecione</option>
+                    <option value="manha">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+            </div>
+
+            <section class="receber-novidades">
+                <input type="checkbox"> Gostaria de receber novidades por email.<br>
+                
+                <section class="botao">
+                    <button class="botao-enviar"type="submit">Enviar formulário</button>
+                </section>   
+            </section> 
+            
+            <table class="dia-horario" width="250px">
+                    <th>Dia</th><th>Horário</th>
+                    <tr>
+                    <td>Segunda</td><td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                    <td>Quarta</td><td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                    <td>Sexta</td><td>8h - 20h</td>
+                    </tr>
+            </table>
+        </section>       
+        </form>
+    </main>
+    <footer class="rodape">
+        <img class="logo-rodape" src="img/logo-branco.png" alt="">
+        <p>&copy; Copyright Barbearia Alura - 2021</p>
+    </footer>
+</body>
+
+</html>
